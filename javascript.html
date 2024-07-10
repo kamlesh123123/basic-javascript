@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <title>Javascript</title>
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <!-- <h1>Welcome Page</h1>
+        <input type="number" id="txt_a" placeholder="a"><br>
+        <input type="number" id="txt_b" placeholder="b"><br>
+        <input type="number" id="txt_c" placeholder="c"><br>
+        <input type="button" id="btn" value="Calculate" onclick="calculate()">
+        <input type="button" id="btn2" value="Get HTML" onclick="revHtml()">
+        <hr>
+        <textarea id="txt_in" placeholder="HTML" onchange="showHtml()"></textarea><br>
+        <div style="width: 500px; height: 500px;" id="divOut"></div>
+        <script>
+            function revHtml(){
+                var a = document.getElementById("divOut").innerHTML; 
+                alert(a);
+                //document.getElementById("divOut").innerHTML=a;
+            }
+            function showHtml()
+            {
+                var a = document.getElementById("txt_in").value; 
+                document.getElementById("divOut").innerHTML=a;  
+            }
+            var abc ='test';
+            function calculate()
+            {
+                var a = document.getElementById("txt_a").value;
+                var b = document.getElementById("txt_b").value;
+                var c = parseFloat(a)+parseFloat(b);
+                alert(abc);
+                document.getElementById("txt_c").value=c;
+            }
+            
+            var a = 1;
+            var b = '4';
+            var c= a+parseInt(b);
+            document.write('a = '+a+'<br>b = '+b);
+            document.write('<br>c = '+c);
+            
+            //alert('testing');
+            console.log('welcome');
+        </script> -->
+
+    <h1>Addition</h1>
+    <p>A = <input type="number" id="text_a"></p>
+    <p>B = <input type="number" id="text_b"></p>
+    <p>Result = <input type="number" id="result1"></p>
+
+    <input type="button" id="btn" value="Calculate" onclick="calculateadd()">
+
+    <h1>Subtract</h1>
+    <p>A = <input type="number" id="text_x"></p>
+    <p>B = <input type="number" id="text_y"></p>
+    <p>Result = <input type="number" id="result2"></p>
+
+    <input type="button" id="btn" value="Calculate" onclick="calculatesub()">
+
+    <h1>Multiply</h1>
+    <p>A = <input type="number" id="text_k"></p>
+    <p>B = <input type="number" id="text_l"></p>
+    <p>Result = <input type="number" id="result3"></p>
+
+    <input type="button" id="btn" value="Calculate" onclick="calculatemul()">
+
+    <h1>Division</h1>
+    <p>A = <input type="number" id="text_e"></p>
+    <p>B = <input type="number" id="text_f"></p>
+    <p>Result = <input type="number" id="result4"></p>
+
+    <input type="button" id="btn" value="Calculate" onclick="calculatediv()">
+
+    <h1>All in one</h1>
+    <p>value 1 = <input type="number" id="value1"></p>
+    <p>value 2 = <input type="number" id="value2"></p>
+    
+    <p>Add = <input type="number" id="resultofadd"></p>
+    <p>Sub = <input type="number" id="resultofsub"></p>
+    <p>Mul = <input type="number" id="resultofmul"></p>
+    <p>Div = <input type="number" id="resultofdiv"></p>
+
+    <input type="button" id="btn" value="Calculate" onclick="calculateall()">
+
+</body>
+
+</html>
